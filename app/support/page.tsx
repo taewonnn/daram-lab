@@ -14,12 +14,12 @@ export default function SupportPage() {
         <p className="text-sub text-lg mb-12">문의사항이 있으시면 아래 이메일로 연락해주세요.</p>
 
         <a
-          href="mailto:thisis_tw94@naver.com"
+          href="mailto:support@daramlab.kr"
           className="flex items-center justify-between border border-border rounded-2xl px-6 py-5 hover:border-primary transition-colors group"
         >
           <div>
             <p className="text-sm text-sub mb-1">이메일</p>
-            <p className="font-medium text-primary">thisis_tw94@naver.com</p>
+            <p className="font-medium text-primary">support@daramlab.kr</p>
           </div>
           <span className="text-sub group-hover:text-primary transition-colors text-xl">→</span>
         </a>

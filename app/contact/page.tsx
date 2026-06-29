@@ -23,7 +23,7 @@ export default function ContactPage() {
               href="mailto:support@daramlab.com"
               className="font-medium text-primary hover:underline"
             >
-              thisis_tw94@naver.com
+              support@daramlab.kr
             </a>
           </div>
         </div>
