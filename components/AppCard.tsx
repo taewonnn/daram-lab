@@ -9,7 +9,7 @@ type AppCardProps = {
 
 export default function AppCard({ app }: AppCardProps) {
   return (
-    <div className="border border-border rounded-2xl p-6 flex flex-col gap-4 hover:shadow-sm transition-shadow">
+    <div className="border border-border rounded-2xl p-6 flex flex-col gap-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-md hover:border-[#d0d0d0]">
       <div className="flex items-center gap-4">
         <div className="w-16 h-16 rounded-2xl overflow-hidden bg-[#f5f5f5] shrink-0">
           {app.icon && (

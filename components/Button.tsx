@@ -25,7 +25,7 @@ export default function Button({
   className = "",
   external = false,
 }: ButtonProps) {
-  const base = `inline-flex items-center justify-center px-6 py-3 rounded-[12px] text-sm font-medium transition-colors ${variantStyles[variant]} ${className}`;
+  const base = `inline-flex items-center justify-center px-6 py-3 rounded-[12px] text-sm font-medium transition-all duration-150 active:scale-95 ${variantStyles[variant]} ${className}`;
 
   if (href) {
     return external ? (
