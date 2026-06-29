@@ -10,7 +10,10 @@ export const metadata: Metadata = {
     template: "%s | DaramLab",
   },
   description: "DaramLab은 Android 앱과 AI 서비스를 개발하는 1인 개발 스튜디오입니다.",
-  metadataBase: new URL("https://daramlab.com"),
+  metadataBase: new URL("https://daramlab.kr"),
+  verification: {
+    google: "XNVahPgzXC9DT4VkQLzPbC7Jktri7Gy1a60gLqZDYuQ",
+  },
   openGraph: {
     siteName: "DaramLab",
     locale: "ko_KR",
