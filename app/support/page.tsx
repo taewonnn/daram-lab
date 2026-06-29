@@ -14,7 +14,7 @@ export default function SupportPage() {
         <p className="text-sub text-lg mb-12">문의사항이 있으시면 아래 이메일로 연락해주세요.</p>
 
         <a
-          href="mailto:support@daramlab.com"
+          href="mailto:thisis_tw94@naver.com"
           className="flex items-center justify-between border border-border rounded-2xl px-6 py-5 hover:border-primary transition-colors group"
         >
           <div>
